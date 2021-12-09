@@ -1,4 +1,4 @@
-import { blockchain } from '@defichain/jellyfish-api-core'
+import { blockchain } from '@muirglacier/jellyfish-api-core'
 
 export type RawBlock = blockchain.Block<blockchain.Transaction>
 export { blockchain as defid }

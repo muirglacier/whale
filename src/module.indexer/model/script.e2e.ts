@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ScriptUnspentMapper } from '@src/module.model/script.unspent'
 import { HexEncoder } from '@src/module.model/_hex.encoder'
 import { ScriptActivityMapper } from '@src/module.model/script.activity'

@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { BlockMapper } from '@src/module.model/block'
 import { createTestingApp, invalidateFromHeight, stopTestingApp, waitForIndexedHeight } from '@src/e2e.module'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'

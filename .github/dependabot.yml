@@ -10,7 +10,7 @@ updates:
     ignore:
       - dependency-name: "defich"
       - dependency-name: "defichain"
-      - dependency-name: "@defich/*"
+      - dependency-name: "@muirglacier/*"
       - dependency-name: "@defichain/*"
     versioning-strategy: 'increase'
 

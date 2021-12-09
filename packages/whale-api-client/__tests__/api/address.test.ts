@@ -1,9 +1,9 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { StubWhaleApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
 import { WhaleApiClient } from '../../src'
-import { createSignedTxnHex, createToken, mintTokens, utxosToAccount } from '@defichain/testing'
-import { WIF } from '@defichain/jellyfish-crypto'
+import { createSignedTxnHex, createToken, mintTokens, utxosToAccount } from '@muirglacier/testing'
+import { WIF } from '@muirglacier/jellyfish-crypto'
 
 let container: MasterNodeRegTestContainer
 let service: StubService

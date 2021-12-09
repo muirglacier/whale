@@ -1,5 +1,5 @@
-import { NetworkName } from '@defichain/jellyfish-network'
-import { CSetLoanToken, SetLoanToken } from '@defichain/jellyfish-transaction'
+import { NetworkName } from '@muirglacier/jellyfish-network'
+import { CSetLoanToken, SetLoanToken } from '@muirglacier/jellyfish-transaction'
 import { Inject, Injectable, Logger } from '@nestjs/common'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { OraclePriceActive, OraclePriceActiveMapper } from '@src/module.model/oracle.price.active'

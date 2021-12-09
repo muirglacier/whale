@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { ConfigModule } from '@nestjs/config'
 import { FeeController } from '@src/module.api/fee.controller'
 

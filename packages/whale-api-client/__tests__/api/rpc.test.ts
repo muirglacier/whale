@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { blockchain } from '@defichain/jellyfish-api-core'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { blockchain } from '@muirglacier/jellyfish-api-core'
 import { WhaleApiClient } from '../../src'
 import { StubWhaleApiClient } from '../stub.client'
 import { StubService } from '../stub.service'

@@ -1,6 +1,6 @@
 import { createTestingApp, DelayedEunosPayaTestContainer, invalidateFromHeight, stopTestingApp, waitForIndexedHeight } from '@src/e2e.module'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { MasternodeMapper } from '@src/module.model/masternode'
 import { MasternodeStatsMapper } from '@src/module.model/masternode.stats'
 

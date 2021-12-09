@@ -1,5 +1,5 @@
 import { DfTxIndexer, DfTxTransaction } from '@src/module.indexer/model/dftx/_abstract'
-import { CResignMasternode, ResignMasternode } from '@defichain/jellyfish-transaction'
+import { CResignMasternode, ResignMasternode } from '@muirglacier/jellyfish-transaction'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { Injectable } from '@nestjs/common'
 import { Masternode, MasternodeMapper } from '@src/module.model/masternode'

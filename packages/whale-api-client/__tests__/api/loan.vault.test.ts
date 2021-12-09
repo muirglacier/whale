@@ -2,8 +2,8 @@ import { StubWhaleApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
 import { WhaleApiException } from '../../src'
 import BigNumber from 'bignumber.js'
-import { Testing } from '@defichain/jellyfish-testing'
-import { LoanMasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { Testing } from '@muirglacier/jellyfish-testing'
+import { LoanMasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { LoanVaultState } from '../../src/api/loan'
 
 const container = new LoanMasterNodeRegTestContainer()

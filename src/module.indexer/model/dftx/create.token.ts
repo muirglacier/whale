@@ -1,5 +1,5 @@
 import { DfTxIndexer, DfTxTransaction } from '@src/module.indexer/model/dftx/_abstract'
-import { TokenCreate, CTokenCreate } from '@defichain/jellyfish-transaction'
+import { TokenCreate, CTokenCreate } from '@muirglacier/jellyfish-transaction'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { Injectable, Logger } from '@nestjs/common'
 import { HexEncoder } from '@src/module.model/_hex.encoder'

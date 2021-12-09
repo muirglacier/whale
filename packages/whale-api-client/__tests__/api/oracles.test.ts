@@ -1,8 +1,8 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { StubService } from '../stub.service'
 import { WhaleApiClient } from '../../src'
 import { StubWhaleApiClient } from '../stub.client'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 let container: MasterNodeRegTestContainer
 let service: StubService

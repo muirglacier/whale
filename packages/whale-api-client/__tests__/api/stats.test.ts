@@ -1,9 +1,9 @@
-import { LoanMasterNodeRegTestContainer, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { LoanMasterNodeRegTestContainer, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { StubWhaleApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
 import { WhaleApiClient } from '../../src'
-import { addPoolLiquidity, createPoolPair, createToken, getNewAddress, mintTokens } from '@defichain/testing'
-import { Testing } from '@defichain/jellyfish-testing'
+import { addPoolLiquidity, createPoolPair, createToken, getNewAddress, mintTokens } from '@muirglacier/testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 import BigNumber from 'bignumber.js'
 
 describe('stats', () => {

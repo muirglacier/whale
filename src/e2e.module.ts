@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing'
 import { AppModule } from '@src/app.module'
 import { ConfigService } from '@nestjs/config'
-import { MasterNodeRegTestContainer, StartOptions } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer, StartOptions } from '@muirglacier/testcontainers'
 import { newFastifyAdapter } from '@src/fastify'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { RPCBlockProvider } from '@src/module.indexer/rpc.block.provider'
@@ -13,7 +13,7 @@ import { ScriptAggregationMapper } from '@src/module.model/script.aggregation'
 /**
  * Configures an end-to-end testing app integrated with all modules.
  * Memory database will be used by default.
- * DeFiD client will be provided by @defichain/testcontainers.
+ * DeFiD client will be provided by @muirglacier/testcontainers.
  *
  * @param {MasterNodeRegTestContainer} container to provide defid client
  * @return Promise<NestFastifyApplication> with initialization

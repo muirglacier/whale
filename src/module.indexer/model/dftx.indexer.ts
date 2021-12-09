@@ -1,6 +1,6 @@
-import { OP_DEFI_TX, OPCode } from '@defichain/jellyfish-transaction'
+import { OP_DEFI_TX, OPCode } from '@muirglacier/jellyfish-transaction'
 import { Indexer, RawBlock } from '@src/module.indexer/model/_abstract'
-import { toOPCodes } from '@defichain/jellyfish-transaction/dist/script/_buffer'
+import { toOPCodes } from '@muirglacier/jellyfish-transaction/dist/script/_buffer'
 import { SmartBuffer } from 'smart-buffer'
 import { AppointOracleIndexer } from '@src/module.indexer/model/dftx/appoint.oracle'
 import { RemoveOracleIndexer } from '@src/module.indexer/model/dftx/remove.oracle'

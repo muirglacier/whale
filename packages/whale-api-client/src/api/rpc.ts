@@ -1,4 +1,4 @@
-import { JellyfishJSON, Precision, PrecisionPath } from '@defichain/jellyfish-api-core'
+import { JellyfishJSON, Precision, PrecisionPath } from '@muirglacier/jellyfish-api-core'
 import { WhaleApiClient } from '../whale.api.client'
 import { WhaleApiResponse } from '../whale.api.response'
 import { raiseIfError } from '../errors'

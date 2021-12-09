@@ -1,12 +1,12 @@
 import { Controller, Get, NotFoundException, Param, ParseIntPipe, Query } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { ApiPagedResponse } from '@src/module.api/_core/api.paged.response'
 import { DeFiDCache } from '@src/module.api/cache/defid.cache'
 import { PoolPairData } from '@whale-api-client/api/poolpairs'
 import { PaginationQuery } from '@src/module.api/_core/api.query'
 import { PoolPairService } from './poolpair.service'
 import BigNumber from 'bignumber.js'
-import { PoolPairInfo } from '@defichain/jellyfish-api-core/dist/category/poolpair'
+import { PoolPairInfo } from '@muirglacier/jellyfish-api-core/dist/category/poolpair'
 import { parseDATSymbol } from '@src/module.api/token.controller'
 
 @Controller('/poolpairs')
@@ -30,7 +30,7 @@ export class PoolPairController {
   ): Promise<ApiPagedResponse<PoolPairData>> {
     const result = await this.rpcClient.poolpair.listPoolPairs({
       start: query.next !== undefined ? Number(query.next) : 0,
-      including_start: query.next === undefined, // TODO(fuxingloh): open issue at DeFiCh/ain, rpc_accounts.cpp#388
+      including_start: query.next === undefined, // TODO(fuxingloh): open issue at muirglacier/ain, rpc_accounts.cpp#388
       limit: query.size
     }, true)
 

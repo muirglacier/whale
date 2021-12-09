@@ -6,10 +6,10 @@ import {
   waitForIndexedHeight
 } from '@src/e2e.module'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { MasternodeMapper } from '@src/module.model/masternode'
-import { MasternodeInfo } from '@defichain/jellyfish-api-core/dist/category/masternode'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasternodeInfo } from '@muirglacier/jellyfish-api-core/dist/category/masternode'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { MasternodeStatsMapper } from '@src/module.model/masternode.stats'
 
 describe('genesis masternodes', () => {

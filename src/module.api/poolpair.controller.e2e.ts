@@ -1,8 +1,8 @@
 import { PoolPairController } from '@src/module.api/poolpair.controller'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, stopTestingApp, waitForIndexedHeight } from '@src/e2e.module'
-import { addPoolLiquidity, createPoolPair, createToken, getNewAddress, mintTokens } from '@defichain/testing'
+import { addPoolLiquidity, createPoolPair, createToken, getNewAddress, mintTokens } from '@muirglacier/testing'
 import { NotFoundException } from '@nestjs/common'
 
 const container = new MasterNodeRegTestContainer()

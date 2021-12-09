@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { createSignedTxnHex } from '@defichain/testing'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { createSignedTxnHex } from '@muirglacier/testing'
 import { StubWhaleApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
 import { WhaleApiClient, WhaleApiException, WhaleApiValidationException } from '../../src'

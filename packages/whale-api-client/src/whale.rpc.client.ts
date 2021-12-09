@@ -1,7 +1,7 @@
-import { ApiClient, Precision, PrecisionPath } from '@defichain/jellyfish-api-core'
+import { ApiClient, Precision, PrecisionPath } from '@muirglacier/jellyfish-api-core'
 import { WhaleApiClient } from './whale.api.client'
-import { Wallet } from '@defichain/jellyfish-api-core/dist/category/wallet'
-import { Net } from '@defichain/jellyfish-api-core/dist/category/net'
+import { Wallet } from '@muirglacier/jellyfish-api-core/dist/category/wallet'
+import { Net } from '@muirglacier/jellyfish-api-core/dist/category/net'
 
 /**
  * A JSON-RPC client implemented with WhaleApiClient.call specification.

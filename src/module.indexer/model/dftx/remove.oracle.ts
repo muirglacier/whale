@@ -1,5 +1,5 @@
 import { DfTxIndexer, DfTxTransaction } from '@src/module.indexer/model/dftx/_abstract'
-import { CRemoveOracle, RemoveOracle } from '@defichain/jellyfish-transaction'
+import { CRemoveOracle, RemoveOracle } from '@muirglacier/jellyfish-transaction'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { Injectable } from '@nestjs/common'
 import { OracleMapper } from '@src/module.model/oracle'

@@ -1,5 +1,5 @@
 import { DfTxIndexer, DfTxTransaction } from '@src/module.indexer/model/dftx/_abstract'
-import { PoolUpdatePair, CPoolUpdatePair } from '@defichain/jellyfish-transaction'
+import { PoolUpdatePair, CPoolUpdatePair } from '@muirglacier/jellyfish-transaction'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { Injectable, Logger } from '@nestjs/common'
 import { PoolPairMapper } from '@src/module.model/poolpair'

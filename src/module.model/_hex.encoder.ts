@@ -1,4 +1,4 @@
-import { SHA256 } from '@defichain/jellyfish-crypto'
+import { SHA256 } from '@muirglacier/jellyfish-crypto'
 
 /**
  * HexEncoder to encode various DeFi transaction data into fixed length hex

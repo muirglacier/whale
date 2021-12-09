@@ -1,6 +1,6 @@
 import { Controller, Get, ParseIntPipe, Query } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { EstimateMode } from '@defichain/jellyfish-api-core/dist/category/mining'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { EstimateMode } from '@muirglacier/jellyfish-api-core/dist/category/mining'
 
 @Controller('/fee')
 export class FeeController {

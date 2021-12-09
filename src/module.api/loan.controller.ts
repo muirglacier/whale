@@ -7,7 +7,7 @@ import {
   Param,
   Query
 } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { ApiPagedResponse } from '@src/module.api/_core/api.paged.response'
 import { PaginationQuery } from '@src/module.api/_core/api.query'
 import {
@@ -15,7 +15,7 @@ import {
   GetLoanSchemeResult,
   LoanSchemeResult,
   LoanTokenResult
-} from '@defichain/jellyfish-api-core/dist/category/loan'
+} from '@muirglacier/jellyfish-api-core/dist/category/loan'
 import {
   CollateralToken,
   LoanScheme,

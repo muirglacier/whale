@@ -1,7 +1,7 @@
-import { WalletAccount, WalletAccountProvider, WalletEllipticPair } from '@defichain/jellyfish-wallet'
-import { WhaleApiClient } from '@defichain/whale-api-client'
-import { Network } from '@defichain/jellyfish-network'
-import { P2WPKHTransactionBuilder } from '@defichain/jellyfish-transaction-builder/dist'
+import { WalletAccount, WalletAccountProvider, WalletEllipticPair } from '@muirglacier/jellyfish-wallet'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
+import { Network } from '@muirglacier/jellyfish-network'
+import { P2WPKHTransactionBuilder } from '@muirglacier/jellyfish-transaction-builder/dist'
 import { WhaleFeeRateProvider } from './feerate'
 import { WhalePrevoutProvider } from './prevout'
 

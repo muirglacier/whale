@@ -1,8 +1,8 @@
 import { TokenController } from '@src/module.api/token.controller'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, stopTestingApp, waitForIndexedHeight } from '@src/e2e.module'
-import { createPoolPair, createToken } from '@defichain/testing'
+import { createPoolPair, createToken } from '@muirglacier/testing'
 import { NotFoundException } from '@nestjs/common'
 
 const container = new MasterNodeRegTestContainer()

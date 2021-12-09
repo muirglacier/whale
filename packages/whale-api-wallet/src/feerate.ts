@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
-import { WhaleApiClient } from '@defichain/whale-api-client'
-import { FeeRateProvider } from '@defichain/jellyfish-transaction-builder'
+import { WhaleApiClient } from '@muirglacier/whale-api-client'
+import { FeeRateProvider } from '@muirglacier/jellyfish-transaction-builder'
 
 export class WhaleFeeRateProvider implements FeeRateProvider {
   constructor (protected readonly client: WhaleApiClient) {

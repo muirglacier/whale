@@ -1,11 +1,11 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { createTestingApp, stopTestingApp, waitForIndexedHeight } from '@src/e2e.module'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { OraclePriceFeedMapper } from '@src/module.model/oracle.price.feed'
 import { OraclePriceAggregatedMapper } from '@src/module.model/oracle.price.aggregated'
 import { PriceTickerMapper } from '@src/module.model/price.ticker'
 import { HexEncoder } from '@src/module.model/_hex.encoder'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 const container = new MasterNodeRegTestContainer()
 let app: NestFastifyApplication

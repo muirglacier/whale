@@ -1,6 +1,6 @@
-[![CI](https://github.com/DeFiCh/whale/actions/workflows/ci.yml/badge.svg)](https://github.com/DeFiCh/whale/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/DeFiCh/whale/branch/main/graph/badge.svg?token=kBCC9qSRrA)](https://codecov.io/gh/DeFiCh/whale)
-[![Maintainability](https://api.codeclimate.com/v1/badges/593ffda9c1d91261a37b/maintainability)](https://codeclimate.com/github/DeFiCh/whale/maintainability)
+[![CI](https://github.com/muirglacier/whale/actions/workflows/ci.yml/badge.svg)](https://github.com/muirglacier/whale/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/muirglacier/whale/branch/main/graph/badge.svg?token=kBCC9qSRrA)](https://codecov.io/gh/muirglacier/whale)
+[![Maintainability](https://api.codeclimate.com/v1/badges/593ffda9c1d91261a37b/maintainability)](https://codeclimate.com/github/muirglacier/whale/maintainability)
 [![TS-Standard](https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript)](https://github.com/standard/ts-standard)
 
 # DeFi Whale
@@ -26,7 +26,7 @@ npm install
 There are three types of tests required for DeFi Whale.
 
 All types of tests required Docker
-as [`@defichain/testcontainers`](https://github.com/DeFiCh/jellyfish/tree/main/packages/testcontainers) will
+as [`@muirglacier/testcontainers`](https://github.com/muirglacier/jellyfish/tree/main/packages/testcontainers) will
 automatically spin up `regtest` instances for testing. The number of containers it will spin up concurrently is
 dependent on your jest `--maxConcurrency` count. Test are known to be flaky due to the usage of multiple Docker
 containers for test concurrency.
@@ -63,7 +63,7 @@ jest
 ### Publishing
 
 Docker images are published automatically to GitHub Container Registry (ghcr.io/defich). When a
-new [GitHub releases](https://github.com/DeFiCh/whale/releases) is triggered, GitHub Action will automatically build the
+new [GitHub releases](https://github.com/muirglacier/whale/releases) is triggered, GitHub Action will automatically build the
 docker image in this repo and publish it. Two images are created for each release targeting `linux/amd64`
 and `linux/arm64`. The latest tag will always be updated with the last release and semantic release is enforced for each
 release.
@@ -76,7 +76,7 @@ convenience with basic toolchain setup but use of IntelliJ is totally optional.
 ### Security issues
 
 If you discover a security vulnerability in `DeFi Whale`,
-[please see submit it privately](https://github.com/DeFiCh/.github/blob/main/SECURITY.md).
+[please see submit it privately](https://github.com/muirglacier/.github/blob/main/SECURITY.md).
 
 ## License & Disclaimer
 

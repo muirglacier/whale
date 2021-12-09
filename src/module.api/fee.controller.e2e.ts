@@ -1,5 +1,5 @@
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, stopTestingApp } from '@src/e2e.module'
 import { FeeController } from '@src/module.api/fee.controller'

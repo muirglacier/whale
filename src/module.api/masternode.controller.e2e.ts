@@ -1,11 +1,11 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, DelayedEunosPayaTestContainer, stopTestingApp, waitForIndexedHeight } from '@src/e2e.module'
 import { NotFoundException } from '@nestjs/common'
 import { MasternodeController } from '@src/module.api/masternode.controller'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { MasternodeState } from '@whale-api-client/api/masternodes'
-import { MasternodeTimeLock } from '@defichain/jellyfish-api-core/dist/category/masternode'
+import { MasternodeTimeLock } from '@muirglacier/jellyfish-api-core/dist/category/masternode'
 
 describe('list', () => {
   const container = new MasterNodeRegTestContainer()

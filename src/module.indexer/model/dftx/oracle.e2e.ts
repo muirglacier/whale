@@ -1,5 +1,5 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { OracleMapper } from '@src/module.model/oracle'
 import { OracleHistoryMapper } from '@src/module.model/oracle.history'
 import { OracleTokenCurrencyMapper } from '@src/module.model/oracle.token.currency'

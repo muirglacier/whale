@@ -1,4 +1,4 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { WhaleRpcClient } from '../src'
 import { StubService } from './stub.service'
 import { StubWhaleApiClient } from './stub.client'

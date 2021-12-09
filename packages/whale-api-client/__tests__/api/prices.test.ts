@@ -1,10 +1,10 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { StubService } from '../stub.service'
 import { WhaleApiClient } from '../../src'
 import { StubWhaleApiClient } from '../stub.client'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { PriceFeedTimeInterval } from '@whale-api-client/api/prices'
-import { Testing } from '@defichain/jellyfish-testing'
+import { Testing } from '@muirglacier/jellyfish-testing'
 
 describe('oracles', () => {
   let container: MasterNodeRegTestContainer

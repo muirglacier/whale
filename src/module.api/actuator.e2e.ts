@@ -1,4 +1,4 @@
-import { ContainerGroup, MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { ContainerGroup, MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, waitForIndexedHeight } from '@src/e2e.module'
 

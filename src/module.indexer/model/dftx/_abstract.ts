@@ -1,6 +1,6 @@
 import { RawBlock } from '@src/module.indexer/model/_abstract'
-import { blockchain } from '@defichain/jellyfish-api-core'
-import { DfTx } from '@defichain/jellyfish-transaction'
+import { blockchain } from '@muirglacier/jellyfish-api-core'
+import { DfTx } from '@muirglacier/jellyfish-transaction'
 
 export abstract class DfTxIndexer<T> {
   abstract OP_CODE: number

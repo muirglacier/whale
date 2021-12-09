@@ -1,10 +1,10 @@
 import { AddressController } from '@src/module.api/address.controller'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { NestFastifyApplication } from '@nestjs/platform-fastify'
 import { createTestingApp, stopTestingApp, waitForAddressTxCount, waitForIndexedHeight } from '@src/e2e.module'
-import { createSignedTxnHex, createToken, mintTokens, sendTokensToAddress } from '@defichain/testing'
-import { WIF } from '@defichain/jellyfish-crypto'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { createSignedTxnHex, createToken, mintTokens, sendTokensToAddress } from '@muirglacier/testing'
+import { WIF } from '@muirglacier/jellyfish-crypto'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 
 const container = new MasterNodeRegTestContainer()
 let app: NestFastifyApplication

@@ -1,5 +1,5 @@
 import { DfTxIndexer, DfTxTransaction } from '@src/module.indexer/model/dftx/_abstract'
-import { CUpdateOracle, UpdateOracle } from '@defichain/jellyfish-transaction'
+import { CUpdateOracle, UpdateOracle } from '@muirglacier/jellyfish-transaction'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { Inject, Injectable } from '@nestjs/common'
 import { OracleMapper } from '@src/module.model/oracle'
@@ -7,8 +7,8 @@ import { OracleHistory, OracleHistoryMapper } from '@src/module.model/oracle.his
 import { OracleTokenCurrencyMapper } from '@src/module.model/oracle.token.currency'
 import { NotFoundIndexerError } from '@src/module.indexer/error'
 import { HexEncoder } from '@src/module.model/_hex.encoder'
-import { NetworkName } from '@defichain/jellyfish-network'
-import { fromScript } from '@defichain/jellyfish-address'
+import { NetworkName } from '@muirglacier/jellyfish-network'
+import { fromScript } from '@muirglacier/jellyfish-address'
 
 @Injectable()
 export class UpdateOracleIndexer extends DfTxIndexer<UpdateOracle> {

@@ -6,7 +6,7 @@ import {
   VaultLiquidationBatch,
   VaultPagination,
   VaultState
-} from '@defichain/jellyfish-api-core/dist/category/loan'
+} from '@muirglacier/jellyfish-api-core/dist/category/loan'
 import { ApiPagedResponse } from '@src/module.api/_core/api.paged.response'
 import {
   LoanScheme,
@@ -17,8 +17,8 @@ import {
   LoanVaultTokenAmount
 } from '@whale-api-client/api/loan'
 import { BadRequestException, ConflictException, Injectable, NotFoundException } from '@nestjs/common'
-import { TokenInfo } from '@defichain/jellyfish-api-core/dist/category/token'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { TokenInfo } from '@muirglacier/jellyfish-api-core/dist/category/token'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { DeFiDCache } from '@src/module.api/cache/defid.cache'
 import { parseDisplaySymbol } from '@src/module.api/token.controller'
 import { ActivePrice } from '@whale-api-client/api/prices'

@@ -1,8 +1,8 @@
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { StubWhaleApiClient } from '../stub.client'
 import { StubService } from '../stub.service'
 import { WhaleApiClient, WhaleApiException } from '../../src'
-import { createPoolPair, createToken } from '@defichain/testing'
+import { createPoolPair, createToken } from '@muirglacier/testing'
 
 let container: MasterNodeRegTestContainer
 let service: StubService

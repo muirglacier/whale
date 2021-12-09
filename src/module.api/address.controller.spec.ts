@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing'
-import { MasterNodeRegTestContainer } from '@defichain/testcontainers'
+import { MasterNodeRegTestContainer } from '@muirglacier/testcontainers'
 import { AddressController } from '@src/module.api/address.controller'
-import { createToken, mintTokens, sendTokensToAddress } from '@defichain/testing'
+import { createToken, mintTokens, sendTokensToAddress } from '@muirglacier/testing'
 import { DeFiDCache } from '@src/module.api/cache/defid.cache'
 import { CacheModule } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'
@@ -10,7 +10,7 @@ import { DatabaseModule } from '@src/module.database/_module'
 import { ModelModule } from '@src/module.model/_module'
 import { DeFiDModule } from '@src/module.defid/_module'
 import { IndexerModule } from '@src/module.indexer/_module'
-import { RpcApiError } from '@defichain/jellyfish-api-core'
+import { RpcApiError } from '@muirglacier/jellyfish-api-core'
 import { LoanVaultService } from '@src/module.api/loan.vault.service'
 
 const container = new MasterNodeRegTestContainer()

@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
-import { RegTestContainer } from '@defichain/testcontainers'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
+import { RegTestContainer } from '@muirglacier/testcontainers'
 import { RpcController } from '@src/module.api/rpc.controller'
 
 const container = new RegTestContainer()

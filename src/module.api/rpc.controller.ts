@@ -9,7 +9,7 @@ import {
   PipeTransform,
   Post
 } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 
 /**
  * MethodWhitelist is a whitelist validation pipe to check

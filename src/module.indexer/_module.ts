@@ -14,7 +14,7 @@ import { DfTxIndexerModule } from '@src/module.indexer/model/dftx/_module'
 import { MainDfTxIndexer } from '@src/module.indexer/model/dftx.indexer'
 import { BlockMintedIndexer } from '@src/module.indexer/model/block.minted'
 import { ConfigService } from '@nestjs/config'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 
 @Module({
   providers: [

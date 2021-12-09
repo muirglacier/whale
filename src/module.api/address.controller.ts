@@ -1,18 +1,18 @@
 import BigNumber from 'bignumber.js'
 import { ConflictException, Controller, Get, Inject, Param, Query } from '@nestjs/common'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { ApiPagedResponse } from '@src/module.api/_core/api.paged.response'
 import { DeFiDCache } from '@src/module.api/cache/defid.cache'
-import { TokenInfo } from '@defichain/jellyfish-api-core/dist/category/token'
+import { TokenInfo } from '@muirglacier/jellyfish-api-core/dist/category/token'
 import { AddressToken } from '@whale-api-client/api/address'
 import { PaginationQuery } from '@src/module.api/_core/api.query'
 import { ScriptActivity, ScriptActivityMapper } from '@src/module.model/script.activity'
 import { ScriptAggregation, ScriptAggregationMapper } from '@src/module.model/script.aggregation'
 import { ScriptUnspent, ScriptUnspentMapper } from '@src/module.model/script.unspent'
-import { DeFiAddress } from '@defichain/jellyfish-address'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { DeFiAddress } from '@muirglacier/jellyfish-address'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 import { HexEncoder } from '@src/module.model/_hex.encoder'
-import { toBuffer } from '@defichain/jellyfish-transaction/dist/script/_buffer'
+import { toBuffer } from '@muirglacier/jellyfish-transaction/dist/script/_buffer'
 import { LoanVaultActive, LoanVaultLiquidated } from '@whale-api-client/api/loan'
 import { LoanVaultService } from '@src/module.api/loan.vault.service'
 import { parseDisplaySymbol } from '@src/module.api/token.controller'
@@ -53,7 +53,7 @@ export class AddressController {
   ): Promise<ApiPagedResponse<AddressToken>> {
     const accounts = await this.rpcClient.account.getAccount(address, {
       start: query.next !== undefined ? Number(query.next) : undefined,
-      including_start: query.next === undefined, // TODO(fuxingloh): open issue at DeFiCh/ain, rpc_accounts.cpp#388
+      including_start: query.next === undefined, // TODO(fuxingloh): open issue at muirglacier/ain, rpc_accounts.cpp#388
       limit: query.size
     }, { indexedAmounts: true })
 

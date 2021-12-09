@@ -1,13 +1,13 @@
 import { Controller, Get } from '@nestjs/common'
 import { StatsData } from '@whale-api-client/api/stats'
 import { SemaphoreCache } from '@src/module.api/cache/semaphore.cache'
-import { JsonRpcClient } from '@defichain/jellyfish-api-jsonrpc'
+import { JsonRpcClient } from '@muirglacier/jellyfish-api-jsonrpc'
 import { BlockMapper } from '@src/module.model/block'
 import { PoolPairService } from '@src/module.api/poolpair.service'
 import BigNumber from 'bignumber.js'
 import { PriceTickerMapper } from '@src/module.model/price.ticker'
 import { MasternodeStats, MasternodeStatsMapper } from '@src/module.model/masternode.stats'
-import { BlockchainInfo } from '@defichain/jellyfish-api-core/dist/category/blockchain'
+import { BlockchainInfo } from '@muirglacier/jellyfish-api-core/dist/category/blockchain'
 import { getBlockSubsidy } from '@src/module.api/subsidy'
 
 @Controller('/stats')

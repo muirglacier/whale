@@ -1,5 +1,5 @@
 import { DfTxIndexer, DfTxTransaction } from '@src/module.indexer/model/dftx/_abstract'
-import { CPoolCreatePair, PoolCreatePair } from '@defichain/jellyfish-transaction'
+import { CPoolCreatePair, PoolCreatePair } from '@muirglacier/jellyfish-transaction'
 import { RawBlock } from '@src/module.indexer/model/_abstract'
 import { Inject, Injectable, Logger } from '@nestjs/common'
 import { PoolPairMapper } from '@src/module.model/poolpair'
@@ -7,7 +7,7 @@ import { PoolPairTokenMapper } from '@src/module.model/poolpair.token'
 import { MAX_TOKEN_SYMBOL_LENGTH, TokenMapper } from '@src/module.model/token'
 import { HexEncoder } from '@src/module.model/_hex.encoder'
 import { IndexerError } from '@src/module.indexer/error'
-import { NetworkName } from '@defichain/jellyfish-network'
+import { NetworkName } from '@muirglacier/jellyfish-network'
 
 const ConsensusParams = {
   mainnet: {

@@ -1,7 +1,7 @@
-[![npm](https://img.shields.io/npm/v/@defichain/whale-api-wallet)](https://www.npmjs.com/package/@defichain/whale-api-wallet/v/latest)
-[![npm@next](https://img.shields.io/npm/v/@defichain/whale-api-wallet/next)](https://www.npmjs.com/package/@defichain/whale-api-wallet/v/next)
+[![npm](https://img.shields.io/npm/v/@muirglacier/whale-api-wallet)](https://www.npmjs.com/package/@muirglacier/whale-api-wallet/v/latest)
+[![npm@next](https://img.shields.io/npm/v/@muirglacier/whale-api-wallet/next)](https://www.npmjs.com/package/@muirglacier/whale-api-wallet/v/next)
 
-# @defichain/whale-api-wallet
+# @muirglacier/whale-api-wallet
 
 While `jellyfish-wallet` is a managed wallet, `whale-api-wallet` uses `whale-api-client` for DeFi light wallet
 implementation.

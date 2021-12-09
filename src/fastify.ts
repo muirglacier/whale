@@ -1,5 +1,5 @@
 import { FastifyAdapter } from '@nestjs/platform-fastify'
-import { JellyfishJSON } from '@defichain/jellyfish-json'
+import { JellyfishJSON } from '@muirglacier/jellyfish-json'
 
 interface AdapterOptions {
   logger: boolean

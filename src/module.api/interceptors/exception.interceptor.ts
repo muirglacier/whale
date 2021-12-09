@@ -1,7 +1,7 @@
 import { CallHandler, ExecutionContext, HttpException, Injectable, Logger, NestInterceptor } from '@nestjs/common'
 import { Observable, throwError } from 'rxjs'
 import { catchError } from 'rxjs/operators'
-import { ApiError as JellyfishApiError } from '@defichain/jellyfish-api-core'
+import { ApiError as JellyfishApiError } from '@muirglacier/jellyfish-api-core'
 import {
   ApiException,
   BadRequestApiException,
