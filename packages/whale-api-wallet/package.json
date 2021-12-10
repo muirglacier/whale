@@ -24,8 +24,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@muirglacier/jellyfish-transaction-builder": "^0.0.3",
-    "@muirglacier/jellyfish-wallet": "^0.0.3",
+    "@muirglacier/jellyfish-transaction-builder": "^0.0.4",
+    "@muirglacier/jellyfish-wallet": "^0.0.4",
     "@muirglacier/whale-api-client": "0.0.6"
   }
 }
