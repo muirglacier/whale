@@ -33,7 +33,7 @@ export class RawtxController {
    * @example A typical P2WPKH 1 to 2 transaction is 142.5vb
    * @example A typical P2WPKH 1 to 1 + dftx transaction is around ~200vb.
    */
-  private readonly defaultMaxFeeRate: BigNumber = new BigNumber('0.005')
+  private readonly defaultMaxFeeRate: BigNumber = new BigNumber('`0.5`')
 
   constructor (
     private readonly client: JsonRpcClient,
