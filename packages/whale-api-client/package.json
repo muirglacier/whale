@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@muirglacier/whale-api-client",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Official JS client for DeFi Whale, the super index for DeFi Blockchain to simplify DeFi light implementation.",
   "keywords": [
     "DeFiChain",
