@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@muirglacier/whale-api-wallet",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Using whale-api-client with jellyfish-wallet with DeFi light wallet implementation.",
   "keywords": [
     "DeFiChain",
@@ -24,9 +24,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@muirglacier/jellyfish-transaction-builder": "^0.1.8",
-    "@muirglacier/jellyfish-wallet": "^0.1.8",
-    "@muirglacier/whale-api-client": "0.1.8"
+    "@muirglacier/jellyfish-transaction-builder": "^0.1.9",
+    "@muirglacier/jellyfish-wallet": "^0.1.9",
+    "@muirglacier/whale-api-client": "0.1.9"
   },
   "workspaces": [
     "../*"

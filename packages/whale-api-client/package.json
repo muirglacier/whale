@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@muirglacier/whale-api-client",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Official JS client for DeFi Whale, the super index for DeFi Blockchain to simplify DeFi light implementation.",
   "keywords": [
     "DeFiChain",
@@ -24,7 +24,7 @@
     "build": "./prebuild && tsc"
   },
   "dependencies": {
-    "@muirglacier/jellyfish-api-core": "^0.1.8",
+    "@muirglacier/jellyfish-api-core": "^0.1.9",
     "abort-controller": "^3.0.0",
     "cross-fetch": "^3.1.2",
     "url-search-params-polyfill": "8.1.1"
