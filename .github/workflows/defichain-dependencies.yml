@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 16
 
-      - run: npx npm-check-updates -l m -u --deep --target newest --pre -f "/^defichain|@defichain\/.+/" -x "/^@defichain\/(whale|playground)-.+/"
+      - run: npx npm-check-updates -l m -u --deep --target newest --pre -f "/^muirglacier|@muirglacier\/.+/" -x "/^@muirglacier\/(whale|playground)-.+/"
 
       - name: Upgrade dependencies
         run: |
